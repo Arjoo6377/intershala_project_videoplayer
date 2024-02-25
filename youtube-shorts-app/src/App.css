@@ -1,0 +1,32 @@
+
+
+
+
+
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.video-player {
+  scroll-snap-align: start;
+  width: 100vw;
+}
